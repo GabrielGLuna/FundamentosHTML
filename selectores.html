@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores basicos</title>
+    <style>
+        /* slector {
+       propiedad : valor;
+        }
+        */
+        /* Selector universal*/
+        *{
+            margin: 0;
+        }
+        /*Selector etiqueta*/
+        div, p{
+            background-image: linear-gradient(aquamarine, blue);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+        }
+        /*Selector de clase*/
+        /* Atributo class .*/
+.yellow{
+    background-image: linear-gradient(yellow,red);
+}
+/*Selector id*/
+/* atributo id #*/
+#cuadro{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+    </style>
+</head>
+<body>
+    <div class="yellow">un div</div>
+    <hr>
+    <div id="cuadro">un div</div>
+    <hr>
+    <div>un div</div>
+    <hr>
+    <div>un div</div>
+    <p class="yellow">a parrafor</p>
+    <p>a parrafor</p>
+    <p>a parrafor</p>
+</body>
+</html>
