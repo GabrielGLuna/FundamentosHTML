@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTOREEES</title>
+    <style>
+
+        #descendiente p{
+    background-color: aqua;
+    color: orange;
+        }
+        #directo >p{
+background-color:#FF0099 ;
+color: blue;
+        }
+        #adyacente + p{
+background-color:aquamarine;
+color: darkgoldenrod;
+        }
+        #hermano ~ p{
+            background-color: azure;
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div id="descendiente">
+    <p>Hijo1</p>
+    <p>Hijo1</p>
+    <div>
+        <p>Nieto</p>
+    </div>
+    </div>
+    <div id="directo">
+    <p>Hijo1</p>
+    <p>Hijo1</p>
+    <div>
+        <p>Nieto</p>
+    </div>
+    </div>
+    <div id="adyacente">
+        principal
+    </div>
+        <p>vecino cercano</p>
+        <p>vecino  tan cercano</p>
+<div id="hermano">prinmcipal</div>
+ <p>hermano1</p>
+ <p>hermano1</p>
+</body>
+</html>
