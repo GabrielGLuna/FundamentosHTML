@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #container{
+            width: 500px;
+            position: relative;
+        }
+        .item{
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            border-radius: 50%;
+            position: absolute;
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            color: white;
+        }
+        .item:nth-child(1){
+            top: 0;
+            z-index: 5;
+        }
+        .item:nth-child(2){
+            top: 100px;
+            z-index: 4;
+        }
+        .item:nth-child(3){
+            top: 200px;
+            z-index: 3;
+        }
+        .item:nth-child(4){
+            top: 300px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item"><P>item 1</P></div>
+        <div class="item"><p>item2</p></div>
+        <div class="item"><p>item3</p></div>
+        <div class="item"><p>item4</p></div>
+    </div>
+</body>
+</html>
